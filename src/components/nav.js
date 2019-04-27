@@ -32,7 +32,7 @@ class NavbarPage extends Component {
               <Link className="navItems" to="/">Home</Link>
               {/* </MDBNavItem> */}
               {/* <MDBNavItem > */}
-              <Link className="navItems" to="#!">Why us?</Link>
+              <Link className="navItems" to="#!">Resources</Link>
               {/* </MDBNavItem>
               <MDBNavItem > */}
               <Link className="navItems" to="/ProgramsPage">Programs</Link>
