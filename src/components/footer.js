@@ -20,15 +20,13 @@ const FooterPage = () => {
                     Phone: (303)338-7012
                 </li>
                 <li className="list-unstyled">
-                    <a href="edwards@augustanadenver.org">Email</a>
+                    <a href="edwards@augustanadenver.org">Email: edwards@augustanadenver.org</a>
                 </li>
                 </ul>
             </MDBCol>
             <MDBCol md="6">
-                <h5 className="title">Accred</h5>
-                <p>
-          
-                </p>
+                <h5 className="title">Accreditation</h5>
+                <img src="ECADAlogo.gif " alt="accreditation" height="65" width="65"/> 
             </MDBCol>
             </MDBRow>
         </MDBContainer>
@@ -38,3 +36,4 @@ const FooterPage = () => {
 }
 
 export default FooterPage;
+
