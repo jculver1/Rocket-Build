@@ -23,7 +23,20 @@ class NavbarPage extends Component {
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
-            <MDBNavbarNav right>
+            <MDBNavbarNav className="nav" right>
+              {/* <MDBNavItem>
+                <MDBDropdown>
+                  <MDBDropdownToggle nav caret>
+                    <span className="mr-2"></span>
+                  </MDBDropdownToggle>
+                  <MDBDropdownMenu left>
+                    <MDBDropdownItem href="#!">Action</MDBDropdownItem>
+                    <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
+                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
+                  </MDBDropdownMenu>
+                </MDBDropdown>
+              </MDBNavItem> */}
               <MDBNavItem active>
                 <Link className="navItems" to="#!">Home</Link>
               </MDBNavItem>
@@ -34,20 +47,7 @@ class NavbarPage extends Component {
                 <Link className="navItems" to="#!">Programs</Link>
               </MDBNavItem>
               <MDBNavItem >
-                <Link className="navItems" to="#!">Meet the Staff</Link>
-              </MDBNavItem>
-              <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <span className="mr-2"></span>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu>
-                    <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
+                <Link className="navItems" to="#!">Staff</Link>
               </MDBNavItem>
             </MDBNavbarNav>
             {/* <MDBNavbarNav right>
