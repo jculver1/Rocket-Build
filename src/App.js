@@ -11,10 +11,6 @@ class App extends Component {
     return (
       <div>
         <NavbarPage />
-        {/* <Route path="/" exact component={Home} />
-        <Route path="/programs" exact component={programs} /> */}
-        <HomePage />
-        <ProgramsPage />
         <FooterPage />
       </div>
     )

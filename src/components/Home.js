@@ -22,10 +22,11 @@ const HomePage = () => {
                     src={process.env.PUBLIC_URL + '/bicycleboy.jpg'}
                     alt="First slide"
                   />
+                  <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">"Light mask"</h3>
-                  <p>-Parent</p>
+                  <h4 className="h4-responsive font-weight-bold">"Noble absolutely adores his teachers. He’s excited to go to school to spend time in the fairy garden. We’re learning more and more each day through him as well. Augustana has a great program and support structure, thats been great for him."</h4>
+                  <p className="font-weight-bold">{`– Zain & Lauren Master`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
@@ -35,10 +36,11 @@ const HomePage = () => {
                     src={process.env.PUBLIC_URL + '/playground.jpg'}
                     alt="Second slide"
                   />
+                  <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Strong mask</h3>
-                  <p>Second text</p>
+                  <h4 className="h4-responsive font-weight-bold">"We are dedicated to help your child develop academically and socially, but encourage their personalities and bring out their unique traits too."</h4>
+                  <p className="font-weight-bold">{`- Azra Beganovic (Augustana teacher for 21 years)`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
@@ -48,10 +50,11 @@ const HomePage = () => {
                     src={process.env.PUBLIC_URL + '/tunnelkids.jpg'}
                     alt="Third slide"
                   />
+                  <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Slight Mast</h3>
-                  <p>Third text</p>
+                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
+                  <p className="font-weight-bold">- Parent</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="4">
@@ -61,10 +64,11 @@ const HomePage = () => {
                     src={process.env.PUBLIC_URL + '/frontdoor.jpg'}
                     alt="Fourth slide"
                   />
+                  <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Slight Mast</h3>
-                  <p>Third text</p>
+                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
+                  <p className="font-weight-bold">- Parent</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="5">
@@ -74,10 +78,11 @@ const HomePage = () => {
                     src={process.env.PUBLIC_URL + '/lunchboysmile.jpg'}
                     alt="Fifth slide"
                   />
+                  <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h3 className="h3-responsive">Slight Mast</h3>
-                  <p>Third text</p>
+                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
+                  <p className="font-weight-bold">- Parent</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
             </MDBCarouselInner>
@@ -104,9 +109,9 @@ and nurturing environment that promotes learning and enhances the child's well-b
         </div>
 
         <div className=" row justify-content-center">
-          <button class="btn" type="button" data-toggle="collapse" data-target="#mission"
+          <button class="btn btn-secondary waves-effect mission mr-4" type="button" data-toggle="collapse" data-target="#mission"
             aria-expanded="false" aria-controls="multiCollapseExample2">Our Mission</button>
-          <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#vision"
+          <button class="btn btn-secondary ml-2 mission" type="button" data-toggle="collapse" data-target="#vision"
             aria-expanded="false" aria-controls="multiCollapseExample2">Our Vision</button>
         </div>
 

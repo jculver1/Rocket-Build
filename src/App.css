@@ -33,7 +33,7 @@
   margin-left: -0px !important;
   height: 80vh;
   width: 100%;
-  border-bottom: 10px solid #5cc87f;
+  border-bottom: 15px solid #5cc87f;
 }
 
 .carouselImage {
@@ -64,6 +64,18 @@
 .staticColor {
   background-color: #9152f3 ;
 }
+.staff {
+  padding: 5%
+}
+/* .mission {
+  background-color: #9152f3;
+  border-radius: 50%;
+  padding: 3%;
+} */
+
+/* .mission:hover {
+  background-color: #bda1eb
+} */
 /* .container {
   margin: -15px;
   padding: -15px;

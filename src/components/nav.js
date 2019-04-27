@@ -4,6 +4,10 @@ import {
   MDBDropdown, MDBDropdownToggle, MDBDropdownMenu, MDBDropdownItem
 } from "mdbreact";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
+import HomePage from './Home';
+import ProgramsPage from './programs';
+import StaffPage from './staff'
+
 
 class NavbarPage extends Component {
   state = {
@@ -24,43 +28,29 @@ class NavbarPage extends Component {
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
             <MDBNavbarNav className="nav" right>
-              {/* <MDBNavItem>
-                <MDBDropdown>
-                  <MDBDropdownToggle nav caret>
-                    <span className="mr-2"></span>
-                  </MDBDropdownToggle>
-                  <MDBDropdownMenu left>
-                    <MDBDropdownItem href="#!">Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Another Action</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                    <MDBDropdownItem href="#!">Something else here</MDBDropdownItem>
-                  </MDBDropdownMenu>
-                </MDBDropdown>
-              </MDBNavItem> */}
-              <MDBNavItem active>
-                <Link className="navItems" to="#!">Home</Link>
-              </MDBNavItem>
-              <MDBNavItem >
-                <Link className="navItems" to="#!">Why us?</Link>
-              </MDBNavItem>
-              <MDBNavItem >
-                <Link className="navItems" to="/programs">Programs</Link>
-              </MDBNavItem>
-              <MDBNavItem >
-                <Link className="navItems" to="#!">Staff</Link>
-              </MDBNavItem>
+              {/* <MDBNavItem active> */}
+              <Link className="navItems" to="/">Home</Link>
+              {/* </MDBNavItem> */}
+              {/* <MDBNavItem > */}
+              <Link className="navItems" to="#!">Why us?</Link>
+              {/* </MDBNavItem>
+              <MDBNavItem > */}
+              <Link className="navItems" to="/ProgramsPage">Programs</Link>
+              {/* </MDBNavItem>
+              <MDBNavItem > */}
+              <Link className="navItems" to="/StaffPage">Staff</Link>
+              {/* </MDBNavItem> */}
             </MDBNavbarNav>
-            {/* <MDBNavbarNav right>
-              <MDBNavItem>
-                <MDBFormInline waves>
-                  <div className="md-form my-0">
-                    <input className="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search" />
-                  </div>
-                </MDBFormInline>
-              </MDBNavItem>
-            </MDBNavbarNav> */}
           </MDBCollapse>
         </MDBNavbar>
+
+
+
+        <Route path="/" exact component={HomePage} />
+        {/* <Route path="/whyus" component={userBook} /> */}
+        <Route path="/ProgramsPage" component={ProgramsPage} />
+        <Route path="/StaffPage" component={StaffPage} />
+
       </Router>
     );
   }
