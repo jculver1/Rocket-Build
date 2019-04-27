@@ -17,9 +17,9 @@ class NavbarPage extends Component {
   render() {
     return (
       <Router>
-        <MDBNavbar color="indigo" dark expand="md">
+        <MDBNavbar className="staticColor" expand="md">
           <MDBNavbarBrand>
-            <strong className="white-text">Navbar</strong>
+            <img className="logo" src="Augustana_Logo.png" alt="logo"></img>
           </MDBNavbarBrand>
           <MDBNavbarToggler onClick={this.toggleCollapse} />
           <MDBCollapse id="navbarCollapse3" isOpen={this.state.isOpen} navbar>
@@ -44,7 +44,7 @@ class NavbarPage extends Component {
                 <Link className="navItems" to="#!">Why us?</Link>
               </MDBNavItem>
               <MDBNavItem >
-                <Link className="navItems" to="#!">Programs</Link>
+                <Link className="navItems" to="/programs">Programs</Link>
               </MDBNavItem>
               <MDBNavItem >
                 <Link className="navItems" to="#!">Staff</Link>

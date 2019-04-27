@@ -104,7 +104,7 @@ and nurturing environment that promotes learning and enhances the child's well-b
         </div>
 
         <div className=" row justify-content-center">
-          <button class="btn btn-primary " type="button" data-toggle="collapse" data-target="#mission"
+          <button class="btn" type="button" data-toggle="collapse" data-target="#mission"
             aria-expanded="false" aria-controls="multiCollapseExample2">Our Mission</button>
           <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#vision"
             aria-expanded="false" aria-controls="multiCollapseExample2">Our Vision</button>
