@@ -79,7 +79,7 @@ return(
             <MDBView className="rounded z-depth-2 mb-lg-0 mb-4" hover waves>
               <img
                 className="img-fluid"
-                src="boyhug.jpg"
+                src="music.jpg"
                 alt=""
               />
               <a href="#!">
@@ -93,7 +93,8 @@ return(
             </h3>
             <p>
               The Music Together curriculum
-            contains weekly music classes that are an artfully
+            contains weekly music classes that
+             are an artfully
             conceived flow of playful, developmentally
             appropriate activities that include singing,
             movement, finger plays and instrument jams.
@@ -208,4 +209,3 @@ return(
 }
 
 export default ProgramsPage;
-
