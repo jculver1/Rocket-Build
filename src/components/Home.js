@@ -53,8 +53,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
-                  <p className="font-weight-bold">- Parent</p>
+                  <h4 className="h4-responsive font-weight-bold">"My Jesse can't stop talking about their time spent in the fairy garden. I'm just excited to see them outdoors!"</h4>
+                  <p className="font-weight-bold">- Shelly Shermani</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="4">
@@ -67,8 +67,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
-                  <p className="font-weight-bold">- Parent</p>
+                  <h4 className="h4-responsive font-weight-bold">"The music program literally brings music to my ears! This is one of the reasons we chose AELC as a family."</h4>
+                  <p className="font-weight-bold">- Jared, Lexi and Michelle Growski</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="5">
@@ -81,8 +81,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"Parent Quote goes here"</h4>
-                  <p className="font-weight-bold">- Parent</p>
+                  <h4 className="h4-responsive font-weight-bold">"Having joined the AELC family only just a year ago, I know that this is where my heart belongs. Creating an environment that allows young people to flourish is where I belong."</h4>
+                  <p className="font-weight-bold">- Ms. Wendie</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
             </MDBCarouselInner>

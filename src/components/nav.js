@@ -7,6 +7,8 @@ import { BrowserRouter as Router, Route, Link } from "react-router-dom";
 import HomePage from './Home';
 import ProgramsPage from './programs';
 import StaffPage from './staff'
+import ParentResources from './ParentResources'
+
 
 
 class NavbarPage extends Component {
@@ -32,7 +34,7 @@ class NavbarPage extends Component {
               <Link className="navItems" to="/">Home</Link>
               {/* </MDBNavItem> */}
               {/* <MDBNavItem > */}
-              <Link className="navItems" to="#!">Resources</Link>
+              <Link className="navItems" to="/ParentResources">Resources</Link>
               {/* </MDBNavItem>
               <MDBNavItem > */}
               <Link className="navItems" to="/ProgramsPage">Programs</Link>
@@ -48,6 +50,7 @@ class NavbarPage extends Component {
 
         <Route path="/" exact component={HomePage} />
         {/* <Route path="/whyus" component={userBook} /> */}
+        <Route path="/ParentResources" component={ParentResources} />
         <Route path="/ProgramsPage" component={ProgramsPage} />
         <Route path="/StaffPage" component={StaffPage} />
 

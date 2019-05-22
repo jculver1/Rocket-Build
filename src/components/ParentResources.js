@@ -1,56 +1,107 @@
 import React, { Component } from "react";
 
-
-const SENDGRID_API_KEY='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';
-const sgMail = require('@sendgrid/mail');
-sgMail.setApiKey(SENDGRID_API_KEY);
-const msg = {
-  to: 'jculver1900@gmail.com',
-  from: 'jculver1900@gmail.com',
-  subject: 'Sending with SendGrid is Fun',
-  text: 'and easy to do anywhere, even with Node.js',
-  html: '<strong>and easy to do anywhere, even with Node.js</strong>',
-};
-
 class ParentResources extends Component {
-    render(){
-        return(
-        <div class='container'>
-            <div class='row'>
-            <div class='col-3'></div>
-            <div class='col-6'>
-            <h1 class='mb-5'>Parent Resources</h1>
-            <a href="html_images.asp">
-            <h3 class='mb-4'>Year Enrollment Packet</h3>
-            </a>
-            <a href="html_images.asp">
-            <h3 class='mb-4'>Summer Enrollment Packet</h3>
-            </a>
-            <h3>Waitlist Registration</h3>
-            <form>
-            <label for="fname">First Name</label>
-            <input type="text" id="fname" name="fname"/>
-            <label for="lname">Last Name</label>
-            <input type="text" id="lname" name="lname"/>
-            <label for="lname">Child's Name</label>
-            <input type="text" id="lname" name="lname"/>
-            <label for="lname">Child's Birthday</label>
-            <input type="text" id="lname" name="lname"/>
-            <label for="lname">Parent/Guardian Information</label>
-            <label for="lname">Name</label>
-            <input type="text" id="lname" name="lname"/>
-            <label for="lname">Relationship</label>
-            <input type="text" id="lname" name="lname"/>
-            </form>
+    render() {
+        return (
+
+
+            <div>
+
+                <div class='container'>
+                    <div class="accordion md-accordion mt-5" id="accordionEx" role="tablist" aria-multiselectable="true">
+                        <div class="card">
+
+                            <div class="card-header" role="tab" id="headingOne1">
+                                <a data-toggle="collapse" data-parent="#accordionEx" href="#collapseOne1" aria-expanded="true"
+                                    aria-controls="collapseOne1">
+                                    <h5 class="mb-0">
+                                        Waitlist Application <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+
+                            <div id="collapseOne1" class="collapse show" role="tabpanel" aria-labelledby="headingOne1"
+                                data-parent="#accordionEx">
+                                <div class="card-body">
+
+                                    <input type="text" class="form-control mb-2" placeholder="Child's Name" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="text" class="form-control mb-2" placeholder="Birthdate" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="text" class="form-control mb-2" placeholder="Guardians's Full Name" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="text" class="form-control mb-2" placeholder="Relationship" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="text" class="form-control mb-2" placeholder="Address" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="email" class="form-control mb-2" placeholder="Email" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <input type="number" id="defaultRegisterPhonePassword" class="form-control mb-2" placeholder="Phone Number" aria-describedby="defaultRegisterFormPhoneHelpBlock" />
+
+                                    <button class="btn btn-info my-4 btn-block" type="submit">Submit</button>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="card mt-5">
+
+
+                            <div class="card-header" role="tab" id="headingTwo2">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseTwo2"
+                                    aria-expanded="false" aria-controls="collapseTwo2">
+                                    <h5 class="mb-0">
+                                        Tuition Information <i class="fas fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+
+                            <div id="collapseTwo2" class="collapse" role="tabpanel" aria-labelledby="headingTwo2"
+                                data-parent="#accordionEx">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                    labore sustainable VHS.
+        </div>
+                            </div>
+                        </div>
+                        <div class="card mt-5 mb-5">
+                            <div class="card-header" role="tab" id="headingThree3">
+                                <a class="collapsed" data-toggle="collapse" data-parent="#accordionEx" href="#collapseThree3"
+                                    aria-expanded="false" aria-controls="collapseThree3">
+                                    <h5 class="mb-0">
+                                        Parent Handbook<i class="fas fa-angle-down rotate-icon"></i>
+                                    </h5>
+                                </a>
+                            </div>
+
+                            <div id="collapseThree3" class="collapse" role="tabpanel" aria-labelledby="headingThree3"
+                                data-parent="#accordionEx">
+                                <div class="card-body">
+                                    Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3
+                                    wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum
+                                    eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla
+                                    assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred
+                                    nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer
+                                    farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus
+                                    labore sustainable VHS.
+        </div>
+                            </div>
+
+                        </div>
+
+
+                    </div>
+                </div>
             </div>
-            <div class='col-3'></div>
-                    </div>  
-                </div>     
-  
 
         )
     }
 }
 
 export default ParentResources;
-
