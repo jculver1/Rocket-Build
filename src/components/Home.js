@@ -18,15 +18,15 @@ const HomePage = () => {
               <MDBCarouselItem itemId="1">
                 <MDBView>
                   <img
-                    className="d-block carouselImage  w-100"
+                    className="d-block carouselImage image-fluid  w-100"
                     src={process.env.PUBLIC_URL + '/bicycleboy.jpg'}
                     alt="First slide"
                   />
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"Noble absolutely adores his teachers. He’s excited to go to school to spend time in the fairy garden. We’re learning more and more each day through him as well. Augustana has a great program and support structure, thats been great for him."</h4>
-                  <p className="font-weight-bold">{`– Zain & Lauren Master`}</p>
+                  <div className="smartphone font-weight-bold">"Noble absolutely adores his teachers. He’s excited to go to school to spend time in the fairy garden. We’re learning more and more each day through him as well. Augustana has a great program and support structure, thats been great for him."</div>
+                  <p className="font-weight-bold smartphone">{`– Zain & Lauren Master`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
@@ -39,8 +39,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"We are dedicated to help your child develop academically and socially, but encourage their personalities and bring out their unique traits too."</h4>
-                  <p className="font-weight-bold">{`- Azra Beganovic (Augustana teacher for 21 years)`}</p>
+                  <div className="smartphone font-weight-bold">"We are dedicated to help your child develop academically and socially, but encourage their personalities and bring out their unique traits too."</div>
+                  <p className="font-weight-bold smartphone">{`- Azra Beganovic (Augustana teacher for 21 years)`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
@@ -53,8 +53,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"My Jesse can't stop talking about their time spent in the fairy garden. I'm just excited to see them outdoors!"</h4>
-                  <p className="font-weight-bold">- Shelly Shermani</p>
+                  <div className="smartphone font-weight-bold">"My Jesse can't stop talking about their time spent in the fairy garden. I'm just excited to see them outdoors!"</div>
+                  <p className="font-weight-bold smartphone">- Shelly Shermani</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="4">
@@ -67,8 +67,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"The music program literally brings music to my ears! This is one of the reasons we chose AELC as a family."</h4>
-                  <p className="font-weight-bold">- Jared, Lexi and Michelle Growski</p>
+                  <div className="smartphone font-weight-bold">"The music program literally brings music to my ears! This is one of the reasons we chose AELC as a family."</div >
+                  <p className="font-weight-bold smartphone">- Jared, Lexi and Michelle Growski</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="5">
@@ -81,8 +81,8 @@ const HomePage = () => {
                   <MDBMask overlay="black-slight" />
                 </MDBView>
                 <MDBCarouselCaption>
-                  <h4 className="h4-responsive font-weight-bold">"Having joined the AELC family only just a year ago, I know that this is where my heart belongs. Creating an environment that allows young people to flourish is where I belong."</h4>
-                  <p className="font-weight-bold">- Ms. Wendie</p>
+                  <div className="smartphone font-weight-bold">"Having joined the AELC family only just a year ago, I know that this is where my heart belongs. Creating an environment that allows young people to flourish is where I belong."</div>
+                  <p className="font-weight-bold smartphone">- Ms. Wendie</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
             </MDBCarouselInner>
@@ -93,16 +93,16 @@ const HomePage = () => {
         <h1 className="row justify-content-center">About Us</h1>
         <div className="about row">
           <div className="col-lg-2"></div>
-          <p className="col-lg-8 alight-items-center">The Augustana Day Care Center opened its doors on May 1, 1971, fulfilling a long held dream of the congregation's Social Ministry Committee. Since its inception the Center was welcomed children
+          <p className="col-lg-8 alight-items-center mobile">The Augustana Day Care Center opened its doors on May 1, 1971, fulfilling a long held dream of the congregation's Social Ministry Committee. Since its inception the Center was welcomed children
 without regard to faith, culture or ethnicity.</p>
           <div className="col-lg-2"></div>
           <div className="col-lg-2"></div>
-          <p className="col-lg-8 alight-items-center">Seen as a congregational ministry to the broader community the Center has always had some
+          <p className="col-lg-8 alight-items-center mobile">Seen as a congregational ministry to the broader community the Center has always had some
 spaces available to lower income families, providing assistance for those in need. The goal of the Center has been to provide care for children in a clean, safe,
 and nurturing environment that promotes learning and enhances the child's well-being.</p>
           <div className="col-lg-2"></div>
           <div className="col-lg-2"></div>
-          <p className="col-lg-8 alight-items-center">
+          <p className="col-lg-8 alight-items-center mobile">
             Believing that a balance of good nutrition, adequate rest, and ample opportunity for exploration and learning in developmentally appropriate ways is critical to the child's well-being.</p>
           <div className="col-lg-2"></div>
 
