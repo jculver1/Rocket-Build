@@ -34,7 +34,7 @@ class NavbarPage extends Component {
               <Link className="navItems" to="/">Home</Link>
               {/* </MDBNavItem> */}
               {/* <MDBNavItem > */}
-              <Link className="navItems" to="/ParentResources">Resources</Link>
+              <Link className="navItems" to="ParentResources">Resources</Link>
               {/* </MDBNavItem>
               <MDBNavItem > */}
               <Link className="navItems" to="/ProgramsPage">Programs</Link>
@@ -53,7 +53,7 @@ class NavbarPage extends Component {
         <Route path="/ParentResources" component={ParentResources} />
         <Route path="/ProgramsPage" component={ProgramsPage} />
         <Route path="/StaffPage" component={StaffPage} />
-
+        {/* <Route path='/ParentResources' component={ParentResources} /> */}
       </Router>
     );
   }
