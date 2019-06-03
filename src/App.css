@@ -29,14 +29,29 @@
   margin-right: 30%;
 }
 .homeCarousel{
-  /* margin-right: -0px !important;
-  margin-left: -0px !important; */
+  margin-right: -0px !important;
+  margin-left: -0px !important;
   /* height: 100vh; */
   /* width: 100%; */
   border-bottom: 15px solid #5cc87f;
 }
+/* .container {
+      width: 100vw;
+      height: 20%;
+}  */
 .smartphone {
-  font-size: 1.3em
+  /* padding-top: 200%; */
+  font-size: 1.75em;
+  /* padding-bottom: 20%; */
+}
+.smartphone1 {
+  font-size: 1.75em;
+  padding-bottom: 25%;
+  /* padding-top: 40%; */
+}
+
+.desktop {
+  margin-top: -5%;
 }
 /* .carouselImage {
   margin-top: -50px;
@@ -236,7 +251,11 @@ table {
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
   /* Styles */
 .smartphone {
-  font-size: .75em
+  font-size: .70em
+}
+.smartphone1 {
+  font-size: .70em;
+  padding-bottom: -50%;
 }
 .mobile {
   text-align: center;
@@ -245,6 +264,9 @@ table {
   display: flex;
   justify-content: start;
   
+}
+.desktop {
+  /* margin-top: 5%; */
 }
   }
   
@@ -285,6 +307,14 @@ table {
   /* Desktops and laptops ----------- */
   @media only screen  and (min-width : 1224px) {
   /* Styles */
+  .carouselImage {
+    /* width: 100vw; */
+    height: 40%;
+  }
+  .carouselImage1{
+    /* width: 100vw; */
+    height: 40%;
+  }
   }
   
   /* Large screens ----------- */

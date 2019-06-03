@@ -18,7 +18,7 @@ const HomePage = () => {
               <MDBCarouselItem itemId="1">
                 <MDBView>
                   <img
-                    className="d-block carouselImage image-fluid  w-100"
+                    className="desktop d-block carouselImage image-fluid  w-100"
                     src={process.env.PUBLIC_URL + '/bicycleboy.jpg'}
                     alt="First slide"
                   />
@@ -26,13 +26,13 @@ const HomePage = () => {
                 </MDBView>
                 <MDBCarouselCaption>
                   <div className="smartphone font-weight-bold">"Noble absolutely adores his teachers. He’s excited to go to school to spend time in the fairy garden. We’re learning more and more each day through him as well. Augustana has a great program and support structure, thats been great for him."</div>
-                  <p className="font-weight-bold smartphone">{`– Zain & Lauren Master`}</p>
+                  <p className="font-weight-bold smartphone1">{`– Zain & Lauren Master`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="2">
                 <MDBView>
                   <img
-                    className="d-block carouselImage1 w-100"
+                    className="desktop d-block carouselImage1 w-100"
                     src={process.env.PUBLIC_URL + '/playground.jpg'}
                     alt="Second slide"
                   />
@@ -40,13 +40,13 @@ const HomePage = () => {
                 </MDBView>
                 <MDBCarouselCaption>
                   <div className="smartphone font-weight-bold">"We are dedicated to help your child develop academically and socially, but encourage their personalities and bring out their unique traits too."</div>
-                  <p className="font-weight-bold smartphone">{`- Azra Beganovic (Augustana teacher for 21 years)`}</p>
+                  <p className="font-weight-bold smartphone1">{`- Azra Beganovic (Augustana teacher for 21 years)`}</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="3">
                 <MDBView>
                   <img
-                    className="d-block carouselImage w-100"
+                    className="desktop carouselImage w-100"
                     src={process.env.PUBLIC_URL + '/tunnelkids.jpg'}
                     alt="Third slide"
                   />
@@ -54,13 +54,13 @@ const HomePage = () => {
                 </MDBView>
                 <MDBCarouselCaption>
                   <div className="smartphone font-weight-bold">"My Jesse can't stop talking about their time spent in the fairy garden. I'm just excited to see them outdoors!"</div>
-                  <p className="font-weight-bold smartphone">- Shelly Shermani</p>
+                  <p className="font-weight-bold smartphone1">- Shelly Shermani</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="4">
                 <MDBView>
                   <img
-                    className="d-block carouselImage1 w-100"
+                    className="desktop d-block carouselImage1 w-100"
                     src={process.env.PUBLIC_URL + '/frontdoor.jpg'}
                     alt="Fourth slide"
                   />
@@ -68,13 +68,13 @@ const HomePage = () => {
                 </MDBView>
                 <MDBCarouselCaption>
                   <div className="smartphone font-weight-bold">"The music program literally brings music to my ears! This is one of the reasons we chose AELC as a family."</div >
-                  <p className="font-weight-bold smartphone">- Jared, Lexi and Michelle Growski</p>
+                  <p className="font-weight-bold smartphone1">- Jared, Lexi and Michelle Growski</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
               <MDBCarouselItem itemId="5">
                 <MDBView>
                   <img
-                    className="d-block carouselImage w-100"
+                    className="desktop d-block carouselImage w-100"
                     src={process.env.PUBLIC_URL + '/lunchboysmile.jpg'}
                     alt="Fifth slide"
                   />
@@ -82,7 +82,7 @@ const HomePage = () => {
                 </MDBView>
                 <MDBCarouselCaption>
                   <div className="smartphone font-weight-bold">"Having joined the AELC family only just a year ago, I know that this is where my heart belongs. Creating an environment that allows young people to flourish is where I belong."</div>
-                  <p className="font-weight-bold smartphone">- Ms. Wendie</p>
+                  <p className="font-weight-bold smartphone1">- Ms. Wendie</p>
                 </MDBCarouselCaption>
               </MDBCarouselItem>
             </MDBCarouselInner>
